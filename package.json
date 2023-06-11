@@ -1,17 +1,17 @@
 {
   "name": "@w72/fastify-knex",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fastify plugin for knex",
   "type": "module",
   "exports": "./mod.js",
   "author": "w72e@qq.com",
   "license": "MIT",
   "repository": "github:w72/fastify-knex",
-  "engines": {
-    "node": ">=16"
-  },
   "scripts": {
     "build": "tsc"
+  },
+  "engines": {
+    "node": ">=16"
   },
   "keywords": [
     "fastify",
@@ -27,12 +27,14 @@
     "LICENSE.md"
   ],
   "dependencies": {
-    "fastify-plugin": "^4.5.0"
+    "fastify-plugin": "4"
+  },
+  "peerDependencies": {
+    "fastify": "4",
+    "knex": "2"
   },
   "devDependencies": {
     "@types/node": "^20.3.0",
-    "fastify": "^4.18.0",
-    "knex": "^2.4.2",
     "sqlite3": "^5.1.6",
     "typescript": "^5.1.3"
   }
