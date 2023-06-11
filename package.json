@@ -24,7 +24,7 @@
     "mod.d.ts",
     "package.json",
     "README.md",
-    "LICENSE"
+    "LICENSE.md"
   ],
   "dependencies": {
     "fastify-plugin": "^4.5.0"
