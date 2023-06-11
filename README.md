@@ -1,5 +1,11 @@
 # fastify-knex
 
+![](https://img.shields.io/badge/TypeScript-blue?logo=typescript&logoColor=white)
+![](https://img.shields.io/badge/Fastify-4-blue?logo=fastify)
+![](https://img.shields.io/badge/Node.js-%E2%89%A516-blue?logo=node.js&logoColor=white)
+![](https://img.shields.io/badge/Module%20Type-ESM%20only-brightgreen)
+![](https://img.shields.io/badge/License-MIT-blue)
+
 ## Install
 
 ```bash
