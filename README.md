@@ -1,11 +1,13 @@
 # fastify-knex
 
 ![](https://img.shields.io/badge/TypeScript-blue?logo=typescript&logoColor=white)
-![](https://img.shields.io/badge/Node.js-%E2%89%A516-blue?logo=node.js&logoColor=white)
-![](https://img.shields.io/badge/Fastify-4-blue?logo=fastify)
-![](https://img.shields.io/badge/Knex.js-2-blue)
-![](https://img.shields.io/badge/Module%20Type-ESM%20only-brightgreen)
-![](https://img.shields.io/badge/License-MIT-blue)
+![](https://img.shields.io/badge/module_type-ESM_only-brightgreen)
+
+![](https://img.shields.io/npm/v/@w72/fastify-knex)
+![](https://img.shields.io/node/v/@w72/fastify-knex)
+![](https://img.shields.io/npm/dependency-version/@w72/fastify-knex/dev/fastify)
+![](https://img.shields.io/npm/dependency-version/@w72/fastify-knex/dev/knex)
+![](https://img.shields.io/npm/l/@w72/fastify-knex)
 
 ## Install
 
