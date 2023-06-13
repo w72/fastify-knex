@@ -1,8 +1,9 @@
 {
   "name": "@w72/fastify-knex",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Fastify plugin for knex",
   "type": "module",
+  "types": "mod.d.ts",
   "exports": "./mod.js",
   "author": "w72e@qq.com",
   "license": "MIT",
@@ -21,10 +22,7 @@
   "files": [
     "mod.js",
     "mod.ts",
-    "mod.d.ts",
-    "package.json",
-    "README.md",
-    "LICENSE.md"
+    "mod.d.ts"
   ],
   "dependencies": {
     "fastify-plugin": "4"
