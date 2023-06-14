@@ -8,7 +8,7 @@ declare module "fastify" {
   }
 }
 
-const fastifyKnex: FastifyPluginCallback<Knex.Config> = (app, opts, done) => {
+const plugin: FastifyPluginCallback<Knex.Config> = (app, opts, done) => {
   if (!app.knex) {
     const knexInstance = knex.knex(opts);
     app.decorate("knex", knexInstance);
@@ -21,4 +21,6 @@ const fastifyKnex: FastifyPluginCallback<Knex.Config> = (app, opts, done) => {
   done();
 };
 
-export default fp(fastifyKnex, { name: "fastify-knex" });
+const fastifyKnex = fp(plugin, { name: "fastify-knex" });
+
+export default fastifyKnex;
